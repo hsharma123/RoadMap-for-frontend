@@ -37,6 +37,7 @@ Before starting with the roadmap, it's essential to have a basic understanding o
 **JavaScript Basics**: Familiarity with variables, loops, functions, and basic programming concepts.
 
 ****Core Concepts****
+
 The core concepts to focus on initially are:
 
 **HTML5**: Understand the structure of a web page, semantic HTML, forms, and accessibility.
