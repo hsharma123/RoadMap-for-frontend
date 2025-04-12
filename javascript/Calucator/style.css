@@ -1,0 +1,139 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #c4c4c4, #ffffff);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.calculator {
+    border-radius: 20px;
+    padding: 30px;
+    background-color: #2e2e2e;
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.3);
+    width: 360px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #333;
+}
+
+#display {
+    width: 100%;
+    height: 70px;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: right;
+    padding: 20px;
+    background-color: #1c1c1c;
+    border: 1px solid #444;
+    border-radius: 15px;
+    color: white;
+    box-sizing: border-box;
+    outline: none;
+    font-weight: bold;
+    box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+#display:focus {
+    border-color: #7b9fd7;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    width: 100%;
+}
+
+.btn {
+    height: 70px;
+    font-size: 28px;
+    background-color: #333;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    position: relative;
+}
+
+.btn:hover {
+    background-color: #444;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.btn:active {
+    transform: translateY(4px);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.equal {
+    background-color: #4caf50;
+    color: white;
+    grid-column: span 2;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.equal:hover {
+    background-color: #45a049;
+}
+
+.equal:active {
+    transform: translateY(4px);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.zero {
+    grid-column: span 2;
+    background-color: #555;
+}
+
+.zero:hover {
+    background-color: #444;
+}
+
+.clear, .operator {
+    background-color: #f26d6d;
+    color: white;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.clear:hover, .operator:hover {
+    background-color: #e84c3d;
+}
+
+.clear:active, .operator:active {
+    transform: translateY(4px);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.calculator,
+.btn {
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 400px) {
+    .calculator {
+        width: 280px;
+        padding: 20px;
+    }
+
+    #display {
+        font-size: 36px;
+    }
+
+    .btn {
+        font-size: 26px;
+        height: 60px;
+    }
+
+    .equal {
+        font-size: 32px;
+    }
+}
