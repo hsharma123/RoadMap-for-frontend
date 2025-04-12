@@ -63,3 +63,6 @@ li{
     align-items: center;
      column-gap: 10px;
 }
+.complete{
+    text-decoration: line-through;
+}
