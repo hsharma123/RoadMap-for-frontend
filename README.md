@@ -7,21 +7,21 @@ This repository contains the roadmap for becoming a proficient frontend develope
 **Table of Contents**
 1. Introduction
 
-2.Prerequisites
+2. Prerequisites
 
-Core Concepts
+3. Core Concepts
 
-Tools and Technologies
+4. Tools and Technologies
 
-Frontend Frameworks and Libraries
+5. Frontend Frameworks and Libraries
 
-Advanced Topics
+6. Advanced Topics
 
-Resources
+7. Resources
 
-Contributing
+8. Contributing
 
-License
+9. License
 
 Introduction
 This roadmap is designed to help aspiring frontend developers become proficient by mastering key skills. It covers everything from HTML, CSS, and JavaScript to advanced topics like React, Vue.js, performance optimization, and testing. By following this roadmap, you'll be able to build modern, responsive, and performant web applications.
